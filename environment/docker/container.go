@@ -221,7 +221,7 @@ func (e *Environment) Create() error {
 			},
 		},
 
-		SecurityOpt:    []string{"no-new-privileges"},
+		//SecurityOpt:    []string{"no-new-privileges"},
 		ReadonlyRootfs: true,
 		CapDrop: []string{
 			"setpcap", "mknod", "audit_write", "net_raw", "dac_override",
